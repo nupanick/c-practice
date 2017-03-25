@@ -16,22 +16,22 @@ int main(){
     y=0;
 
     printf("\tNick's Super Polynomial Calculator v0.0.2a\n");
-    printf("Calculating: (a-b)(x-y) = ?\n");
+    printf("\tCalculating: (a-b)(x-y) = ?\n");
     
     // input a
-    printf("a =");
+    printf("a = ");
     scanf("%d", &a);
     
     // input b
-    printf("\nb =");
+    printf("b = ");
     scanf("%d", &b);
     
     // input x
-    printf("\nx =");
+    printf("x = ");
     scanf("%d", &x);
     
     // input y
-    printf("\ny =");
+    printf("y = ");
     scanf("%d", &y);
 
     printf("(a-b)(x-y)=%d\n", (a-b)*(x-y));
