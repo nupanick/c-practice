@@ -8,25 +8,31 @@
 
 int main(){
 
-    char name[80] = {0};
-    int length = 0;
+    char strName[80] = {0};
+    int iLength = 0;
+    char strNameUpper;
 
     /* input name from stdin */
 
     printf("Please enter your name: ");
-    scanf("%s",name);
+    scanf("%s",strName);
 
     /* count letters in name */
 
     {   
         // temporary scope to count stuff
         int x = 0;
-        while(name[x] != '\0') {
+        while(strName[x] != '\0') {
             x++;
         }
-        length = x;
+        iLength = x;
     } 
 
-    printf("Greetings, %s. Your name has %d characters in it.", name, length);
+    /* convert to uppercase */
+
+    
+
+    printf("Greetings, %s. Your name has %d characters in it.", strName, 
+            iLength);
 
 }
